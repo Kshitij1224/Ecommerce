@@ -9,7 +9,7 @@ const razorpayInstance = new razorpay({
     key_secret: process.env.RAZORPAY_KEY_SECRET,
 })
 const currency = 'inr'
-const deliveryCharge = 10
+const deliveryCharge = 50
 
 //Placing order using COD
 const placeOrder = async (req, res) => {
