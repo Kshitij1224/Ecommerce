@@ -185,50 +185,7 @@ Ecommerce/
 2. Get your API credentials
 3. Add them to backend `.env`
 
-## 🚀 Deployment
 
-### Frontend (Vercel)
-```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy frontend
-cd client
-vercel --prod
-```
-
-### Backend (Heroku/Render)
-1. Deploy backend to Heroku, Render, or similar
-2. Set environment variables in deployment platform
-3. Update frontend `VITE_BACKEND_URL` to deployed backend URL
-
-### Admin Panel
-Deploy similarly to frontend using Vercel or Netlify
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🐛 Issues
-
-If you encounter any issues, please:
-1. Check existing issues on GitHub
-2. Create a new issue with detailed description
-3. Include steps to reproduce the problem
-
-## 📞 Support
-
-For support or questions:
-- Create an issue on GitHub
-- Contact: [your-email@example.com]
 
 ## 🙏 Acknowledgments
 
